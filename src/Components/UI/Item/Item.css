@@ -1,0 +1,36 @@
+.sell-item-generated .sell-item{
+    width: 100%;
+    min-height: 280px;
+    /*border: 1px solid red;*/
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px #bebebe;
+    cursor: pointer;
+}
+.sell-item-generated .sell-item .item-header{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+.sell-item-generated .sell-item .item-body {
+    padding: 4px;
+}
+.sell-item-generated .sell-item .item-body p{
+    margin: 0;
+    font-size: 12px;
+}
+.sell-item-generated .sell-item .item-body .item-name p{
+    line-height: 1.4;
+}
+.sell-item-generated .sell-item .item-body .item-name p {
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333;
+}
+.sell-item-generated .sell-item .item-body .item-price span.price{
+    font-size: 14px;
+    color: #e37e12;
+    font-weight: 700;
+}
+.item-body .item-feedback span{
+    font-size: 11px;
+}

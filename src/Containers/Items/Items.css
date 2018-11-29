@@ -1,0 +1,27 @@
+.items-container .items-title-heading .items-title.title{
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    width: 180px;
+}
+.items-container .items-title-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 700;
+}
+.items-container .items-title-heading .items-title.lines{
+    width: calc(50% - 120px);
+    border-top: 1px solid #c0c0c0;
+
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right : 25px;
+}

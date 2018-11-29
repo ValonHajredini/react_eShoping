@@ -1,0 +1,22 @@
+.list-my-categories .section-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.list-my-categories .section-title .sectionItem.line-section {
+    border-top: 1px solid #c0c0c0;
+    width: 55px;
+    margin-top: 10px;
+}
+.list-my-categories .sectionItem.title{
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}

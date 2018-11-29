@@ -1,3 +1,36 @@
-.HeaderTop{
+.HeaderTop_ContactHeader{
     background: none repeat scroll 0 0 #F0F0E9;
+}
+ul.Right_List_HeaderTop_ContactHeader {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HeaderTop_ContactHeader ul{
+    margin-bottom: 0;
+
+}
+ul.List_HeaderTop_ContactHeader {
+    padding: 0;
+}
+ul.List_HeaderTop_ContactHeader li{
+    display: inline-block;
+    padding: 3px 6px;
+    /*float: left;*/
+}
+ul.List_HeaderTop_ContactHeader li{
+    display: inline-block;
+    padding: 3px 6px;
+    /*float: right;*/
+}
+ul.List_HeaderTop_ContactHeader li a{
+    font-size: 12px;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
 }

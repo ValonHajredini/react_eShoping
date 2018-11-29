@@ -1,0 +1,7 @@
+.item-body .item-feedback span.star-fedback i.full {
+    color: #e37e12;
+
+}
+.item-body .item-feedback span.star-fedback i.empty {
+    color: #999;
+}

@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
+import 'font-awesome/css/font-awesome.css';
+
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './index.css';
 // import MainPage from './Containers/MainPage/MainPage';
 import MainLayout from './Layouts/MainLayout/MainLayout';
 import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(<MainLayout />, document.getElementById('root'));
 
