@@ -22,16 +22,95 @@ class Items extends Component{
                 </div>
                 <div className={'items-flex-container'}>
                     <div className="row">
-                        <Item img={item_1} price={'5.70 - 3.6'}/>
-                        <Item img={item_2} price={'5.70 - 3.6'}/>
-                        <Item img={item_3} price={'5.70 - 3.6'}/>
-                        <Item img={item_4} price={'5.70 - 3.6'}/>
-                        <Item img={item_5} price={'5.70 - 3.6'}/>
-                        <Item img={item_6} price={'5.70 - 3.6'}/>
-                        <Item img={item_7} price={'5.70 - 3.6'}/>
-                        <Item img={item_8} price={'5.70 - 3.6'}/>
-                        <Item img={item_9} price={'5.70 - 3.6'}/>
-                        <Item img={item_10} price={'5.70 - 3.6'}/>
+                        <Item img={item_1}
+                              name={'TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay'}
+                              slug={'item_slug_for_url'}
+                              price={'5.70 - 3.6'}
+                              orderNuymber={194}
+                              shippment={{text: 'Free Shipping', shipping_price: ''}}
+                              rating={{count: '3', stars: 3}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_2}
+                            price={'15.30'}
+                            orderNuymber={1256}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '4', stars: 1}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_3}
+                            price={'10 - 15'}
+                            orderNuymber={17}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '78', stars: 3}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_4}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={0}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '11', stars: 4}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_5}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={2245}
+                            shippment={{text: 'Free Shipping', 'shipping_price': ' '}}
+                            rating={{count: '996', stars: 0}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_6}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={23}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '15', stars: 5}}
+                        />
+                        <Item
+                            name={'TZT  module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_7}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={30}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '2245', stars: 4}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_8}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={100}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '7', stars: 3}}
+                        />
+                        <Item
+                            name={'channel relay module with optocoupler. Relay'}
+                            slug={'item_slug_for_url'}
+                            img={item_9}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={201}
+                            shippment={{text: 'Shipping:', 'shipping_price': '€ 1.70'}}
+                            rating={{count: '112', stars: 2}}
+                        />
+                        <Item
+                            name={'TZT 5v 12v 1 2 4 6 8 channel relay module with'}
+                            slug={'item_slug_for_url'}
+                            img={item_10}
+                            price={'5.70 - 3.6'}
+                            orderNuymber={17}
+                            shippment={{text: 'Free Shipping', 'shipping_price': ''}}
+                            rating={{count: '7365', stars: 1}}
+                        />
                     </div>
 
                 </div>

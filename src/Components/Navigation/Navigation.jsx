@@ -15,7 +15,7 @@ const Navigation = () => {
                             <NavItem
                                 name={'Account'}
                                 iconName={'user'}
-                                link={'#'}
+                                link={'account'}
                             />
                             <NavItem
                                 name={'Wishlist'}

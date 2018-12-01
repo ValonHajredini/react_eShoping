@@ -11,18 +11,19 @@ const Item = (props) => {
             </div>
             <div className="item-body">
                 <div className="item-name">
-                    <p>TZT 5v 12v 1 2 4 6 8 channel relay module with optocoupler. Relay </p>
+                    <p>{props.name}</p>
                 </div>
                 <div className="item-price-container">
                     <p className={'item-price'}><span className={'price'}>€ {props.price}</span> / piece</p>
                 </div>
                 <div className="item-shipment-method">
-                    <p>Free Shipping</p>
+                    {/*<p>{props.shipment}</p>*/}
+                    <p><span> {props.shippment.text}</span> <span className={'shipping-price'}>{props.shippment.shipping_price}</span></p>
                 </div>
                 <div className="item-feedback">
                     <p>
-                        <StarRate />
-                        <span> (2108) | Orders (5875)</span></p>
+                        <StarRate stars={props.rating.stars}/>
+                        <span> ({props.rating.count}) | Orders ({props.orderNuymber})</span></p>
                 </div>
 
             </div>

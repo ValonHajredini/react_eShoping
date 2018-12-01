@@ -34,3 +34,8 @@
 .item-body .item-feedback span{
     font-size: 11px;
 }
+.shipping-price{
+    font-size: 14px;
+    color: #e37e12;
+    font-weight: 700;
+}
