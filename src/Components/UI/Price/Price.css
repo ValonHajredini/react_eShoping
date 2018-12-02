@@ -1,0 +1,16 @@
+.Price {
+    padding: 3px;
+    color: #999;
+    font: inherit;
+}
+.Price.old{
+    color: #ddd;
+    text-decoration: line-through;
+}
+
+.Price.normal{
+    color: #fe980f;
+    font-weight: 700;
+    /*text-decoration: line-through;*/
+}
+
