@@ -1,11 +1,15 @@
 import React from 'react';
 import './Item.css';
 import StarRate from "../StarRate/StarRate";
-
+import { Link } from 'react-router-dom';
 const Item = (props) => {
   return (
       <div className="col-md-3 col-sm-4 col-xs-12 sell-item-generated">
-          <div className="sell-item">
+          <Link to={{
+              pathname: 'product',
+              hash: '#neShitje',
+              search: '?prodictName=' + props.name + '%sellerId=1154287765451654165465',
+          }} className="sell-item">
             <div className="item-header">
                 <img src={props.img} width={'100%'} alt=""/>
             </div>
@@ -18,7 +22,7 @@ const Item = (props) => {
                 </div>
                 <div className="item-shipment-method">
                     {/*<p>{props.shipment}</p>*/}
-                    <p><span> {props.shippment.text}</span> <span className={'shipping-price'}>{props.shippment.shipping_price}</span></p>
+                    <p><span> {props.shippment.text}</span> <span className="shipping-price">{props.shippment.shipping_price}</span></p>
                 </div>
                 <div className="item-feedback">
                     <p>
@@ -27,7 +31,7 @@ const Item = (props) => {
                 </div>
 
             </div>
-          </div>
+          </Link>
       </div>
   );
 };

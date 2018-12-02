@@ -16,26 +16,27 @@ const Navigation = () => {
                                 name={'Account'}
                                 iconName={'user'}
                                 link={'account'}
+                                search={'?user=1125487541385451'}
                             />
                             <NavItem
                                 name={'Wishlist'}
                                 iconName={'star'}
-                                link={'#'}
+                                link={'wishlist'}
                             />
                             <NavItem
                                 name={'Checkout'}
                                 iconName={'money'}
-                                link={'#'}
+                                link={'checkout'}
                             />
                             <NavItem
                                 name={'Cart'}
                                 iconName={'shopping-cart'}
-                                link={'#'}
+                                link={'cart'}
                             />
                             <NavItem
                                 name={'Login'}
                                 iconName={'lock'}
-                                link={'#'}
+                                link={'LoginOrRegister'}
                             />
 
 

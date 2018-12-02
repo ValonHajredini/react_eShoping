@@ -1,7 +1,6 @@
 import React from 'react';
 import './ContactHeader.css';
 import  FontAwesome from 'react-fontawesome';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const ContactHeader = (props) => {
     return (
         <div className="HeaderTop_ContactHeader">

@@ -7,8 +7,8 @@ const NavItem = (props) => {
     return (
         <Link to={{
             pathname: props.link,
-            hash: '#Valon-Hajredini',
-            search: '?user=11524754875645231',
+            hash: props.hash,
+            search: props.search,
         }}
               className={'Navlink_class_style'}
         >

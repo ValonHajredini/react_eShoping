@@ -4,7 +4,9 @@ class Account extends Component{
 
     render() {
         return (
-            <p>Acount</p>
+            <div className="container">
+                <h3>Acount</h3>
+            </div>
         )
     }
 }

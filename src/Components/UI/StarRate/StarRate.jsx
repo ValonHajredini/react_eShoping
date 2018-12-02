@@ -74,7 +74,7 @@ console.log('stars:',props.stars);
             break;
     }
     return (
-        <span className={'star-fedback'}>
+        <span className="star-fedback">
             {stars}
         </span>
 
