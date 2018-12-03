@@ -1,0 +1,27 @@
+.Quantity{
+    /*border: 1px solid red;*/
+    min-height: 30px;
+    position: relative;
+}
+.Quantity .quantity-input{
+    width: calc(100% - 80px) !important;
+    margin-left: 40px;
+    text-align: right;
+    border-top: 1px solid #e37e12 ;
+    border-bottom: 1px solid #e37e12 ;
+    height: 30px;
+    border-left: 0;
+    border-right: 0;
+    font-weight: 700;
+    font: inherit;
+    color: #e37e12;
+}
+.quantity-buttons{
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    background: #e37e12;
+    border: none;
+    height: 30px;
+}

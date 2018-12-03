@@ -4,7 +4,7 @@ const Price = (props) => {
 
     return (
         <span className={props.type + ' Price'} style={{fontSize: props.size}} >
-            € {props.price} / piece
+            € {props.price} {props.peace &&'/ piece'}
         </span>
     )
 };
